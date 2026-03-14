@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Temperature Converter</h1>
+        <input type="number" id = "Textbox" value="0"> <br>
+
+        <input type="radio" id = "celsiusBtn" name="unit"> 
+        <label for="celsiusBtn">Celsius to Fahrenheit</label><br>
+
+        <input type="radio" id = "fahrenheitBtn" name="unit">
+        <label for="fahrenheitBtn">Fahrenheit to Celsius</label><br>
+
+        <button type="button" onclick="convert()" >Convert</button>
+        <p id="result"></p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
